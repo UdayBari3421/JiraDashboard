@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fr-aic {
+    display: flex;
+    align-items: center;
+}
+
+.create-issue-btn {
+    border: none;
+    background-color: transparent;
+    color: #65728A;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    padding: 4px;
+}
+
+.create-issue-btn>.material-icons {
+    font-size: 16px !important;
+}
+
+.create-issue-btn:hover {
+    background-color: #DEE1E5;
+}
+
+section {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 120px; */
+}
+
+.container {
+    margin-top: 12px;
+    min-width: min(250px, 90vw);
+    height: 400px;
+    background-color: #F4F5F7;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    box-shadow: rgba(169, 30, 255, 0.4) 5px 5px, rgba(166, 46, 240, 0.3) 10px 10px, rgba(46, 137, 240, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.container>p {
+    color: #65728A;
+    font-size: 18px;
+}
+
+input {
+    width: 95%;
+    border: 2px solid #2584FF;
+    resize: none;
+    border-radius: 2px;
+    padding-bottom: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.card {
+    background-color: white;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #182A4D;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #182a4d9c;
+}
+
+.card>span {
+    font-weight: 500;
+}
+
+.card>.material-icons {
+    cursor: pointer;
+    font-size: 16px !important;
+}
+
+.btn {
+    margin-top: 12px;
+    height: fit-content;
+}
